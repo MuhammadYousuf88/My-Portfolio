@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    border: 0%;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(242, 179, 112);
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 60px;
+    border-radius: 50%;
+    display: inline;
+    margin-left: 20px;
+}
+h1{
+    margin-left: 20px;
+    font-size: 30px;
+}
+div{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.navcontent{
+    margin-left: 250px;
+}
+a{
+    text-decoration: none;
+}
+.homeicon,.aboutusicon{
+    width: 30px;
+    padding-right: 15px;
+}
+.contactusicon{
+    width: 35px;
+    padding-right: 10px;
+}
+.loginicon{
+    width: 60px;
+}
