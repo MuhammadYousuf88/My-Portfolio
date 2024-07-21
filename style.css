@@ -5,43 +5,25 @@ body{
 nav{
     width: 100%;
     height: 70px;
-    background-color:rgb(242, 179, 112);
+    background-color:brown;
     display: flex;
     align-items: center;
 }
-img{
-    width: 60px;
+.navimg{
+    width: 50px;
     border-radius: 50%;
-    display: inline;
     margin-left: 20px;
+    border: 3px solid white;
 }
-h1{
+.navheading1{
     margin-left: 20px;
     font-size: 30px;
-}
-div{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    width: 150px;
-    height: 40px;
-    margin-left: 10px;
-    border-radius: 20px;
+	color:white;
 }
 .navcontent{
-    margin-left: 250px;
+    margin-left: 60%;
 }
-a{
-    text-decoration: none;
-}
-.homeicon,.aboutusicon{
-    width: 30px;
-    padding-right: 15px;
-}
-.contactusicon{
-    width: 35px;
-    padding-right: 10px;
-}
-.loginicon{
-    width: 60px;
+nav a img{
+	margin-left:7px;
+    filter: invert(100%) sepia(0%) saturate(7486%) hue-rotate(154deg) brightness(106%) contrast(100%);
 }
