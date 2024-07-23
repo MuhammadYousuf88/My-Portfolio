@@ -96,7 +96,7 @@ nav a img{
 	align-items:center;
 }
 .card2child{
-	width:25%;
+	width:350px;
 	height:400px;
 	background-color:#db9200;
 	border-radius:20px;
@@ -106,21 +106,45 @@ nav a img{
 	box-shadow:0px 0px 15px black;
 }
 .card2img{
-	width:80%;
-	height:150px;
+	width:300px;
+	height:180px;
+	margin-top:15px;
+}
+.card3main{
+	width:100%;
+	height:400px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-bottom:150px;
+}
+.card3child{
+	width:350px;
+	height:400px;
+	background-color:#db9200;
+	border-radius:20px;
+	color:white
+}
+.card3child:hover{
+	box-shadow:0px 0px 15px black;
+}
+.card3img{
+	width:300px;
+	height:180px;
 	margin-top:15px;
 }
 .aboutmemain{
 	width:100%;
-	height:700px;
+	height:400px;
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
 	border-top:10px solid black;
 }
 .aboutmechild{
-	width:40%;
+	width:400px;
 	text-align:justify;
+	margin-top:250px;
 }
 .aboutmemypicture{
 	width:400px;
