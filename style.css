@@ -90,7 +90,7 @@ nav a img{
 }
 .card2main{
 	width:100%;
-	height:600px;
+	height:700px;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
@@ -112,16 +112,20 @@ nav a img{
 }
 .aboutmemain{
 	width:100%;
-	height:500px;
-	background-color:blue;
+	height:700px;
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
+	border-top:10px solid black;
 }
 .aboutmechild{
 	width:40%;
-	background-color:brown;
+	text-align:justify;
 }
 .aboutmemypicture{
 	width:400px;
+	border-radius:20px;
+}
+.aboutmeheading{
+	color:#db9200;
 }
