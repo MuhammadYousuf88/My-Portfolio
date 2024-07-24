@@ -161,4 +161,10 @@ nav a img{
 	padding-left:39%;
 	margin-top:70px;
 	font-size:40px;
-]
+}
+.footermain{
+	width:100%;
+	height:500px;
+	background-color:black;
+	margin-top:250px;
+}
