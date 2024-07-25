@@ -170,19 +170,32 @@ nav a img{
 	align-items:center;
 	margin-top:100px;
 }
-.contactmechild1{
+.contactmeheading{
+	font-size:40px;
+	color:white;
+	border-bottom:2px solid white;
+}
+.contactmemain2{
 	width:500px;
 	height:500px;
 	background-color:#db9200;
 	border-top-left-radius:50px;
 	border-bottom-left-radius:50px;
 }
-.contactmechild2{
+.contactmemain3{
 	width:500px;
 	height:500px;
 	background-color:#db9200;
 	border-top-right-radius:50px;
 	border-bottom-right-radius:50px;
+}
+.contactmechild1{
+	width:300px;
+	height:250px;
+	border-bottom:5px solid white;
+}
+.contactmechild2{
+	margin-top:40px;
 }
 .contactmeimage1{
 	width:200px;
@@ -190,7 +203,11 @@ nav a img{
 	border:5px solid white;
 	box-shadow:0px 0px 10px black;
 }
-
+.contactmeimage2{
+	width:40px;
+	margin-left:20px;
+	border-radius:50%;
+}
 
 
 
