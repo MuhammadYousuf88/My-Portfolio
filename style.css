@@ -142,7 +142,6 @@ nav a img{
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
-	border-top:10px solid black;
 }
 .aboutmechild{
 	width:400px;
@@ -175,6 +174,9 @@ nav a img{
 	color:white;
 	border-bottom:2px solid white;
 }
+.contactmeheading:hover{
+	color:black;
+}
 .contactmemain2{
 	width:500px;
 	height:500px;
@@ -189,6 +191,34 @@ nav a img{
 	border-top-right-radius:50px;
 	border-bottom-right-radius:50px;
 }
+.contactmeinput1{
+	width:400px;
+	height:40px;
+	margin-left:50px;
+	margin-top:20px;
+}
+.contactmeinput2{
+	width:400px;
+	height:150px;
+	margin-left:50px;
+	margin-top:20px;
+}
+.contactmeinput3{
+	width:300px;
+	height:60px;
+	margin-left:100px;
+	margin-top:30px;
+	background-color:#db9200;
+	border:4px solid white;
+	box-shadow:0px 0px 10px white;
+	border-radius:40px;
+	cursor:pointer;
+	color:white;
+	font-size:30px;
+}
+.contactmeinput3:hover{
+	box-shadow:0px 0px 20px black;
+}
 .contactmechild1{
 	width:300px;
 	height:250px;
@@ -201,13 +231,46 @@ nav a img{
 	width:200px;
 	border-radius:50%;
 	border:5px solid white;
-	box-shadow:0px 0px 10px black;
+	box-shadow:0px 0px 10px white;
 }
 .contactmeimage2{
 	width:40px;
 	margin-left:20px;
 	border-radius:50%;
+	box-shadow:0px 0px 10px white;
 }
+.contactmeimage1:hover{
+	box-shadow:0px 0px 15px black;
+}
+.contactmeimage2:hover{
+	box-shadow:0px 0px 10px black;
+}
+.myvideomain{
+	width:100%;
+	height:600px;
+	background-color:#db9200;
+}
+.mylecturesheading{
+	font-size:50px;
+	color:white;
+	display:inline;
+}
+.mylecturesheading:hover{
+	color:black;
+}
+.myvideochild{
+	width:100%;
+	height:260px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}	
+
+
+
+
+
+
 
 
 
