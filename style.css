@@ -286,3 +286,97 @@ nav a img{
 .footericons{
 	margin-top:45px;
 }
+
+
+
+
+@media screen and (max-width: 1200px) {
+.navcontent{
+    margin-left: 55%;
+}
+.card1child{
+	width:400px;
+	height:300px;
+	
+}
+
+}
+@media screen and (max-width: 1060px) {
+.navcontent{
+    margin-left: 50%;
+}
+
+
+
+}
+@media screen and (max-width: 950px) {
+.navcontent{
+    margin-left: 45%;
+}
+
+
+
+}
+@media screen and (max-width: 900px) {
+nav{
+    width: 900px;
+}
+.navcontent{
+    margin-left: 40%;
+}
+.card1img1{
+	margin-left: 50px;
+}
+
+
+
+}
+@media screen and (max-width:800px) {
+.card1img1{
+	margin-left:70px;
+}
+#child2{
+	margin-left:70px;
+}
+
+
+
+}
+@media screen and (max width:750px){
+.card1child{
+	width:600px;
+}
+.card1button1{
+	width:80px;
+	height:30px;
+}
+.card1button2{
+	width:20px;
+	height:40px;
+	border-radius:2px;
+	margin-left:10px;
+	border:2px solid #db9200;
+	color:#db9200;
+	cursor:pointer;
+}
+
+
+
+
+}
+@media screen and (max-width: 210px) {
+.navcontent{
+    margin-left: 30%;
+}
+
+
+
+}
+@media screen and (max-width: 180px) {
+.navcontent{
+    margin-left: 20%;
+}
+
+
+
+}
