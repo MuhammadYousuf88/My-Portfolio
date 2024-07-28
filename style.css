@@ -342,25 +342,79 @@ nav{
 
 
 }
-@media screen and (max width:750px){
+@media screen and (max-width: 750px) {
+.card1main{
+	display:flex;
+	justify-content:center;
+	margin-top:150px;
+}
 .card1child{
-	width:600px;
+	width:500px;
+	background-color:blue;
+}
+.card1img1{
+	width:250px;
+	margin-left:140px;
+}
+.card1img1:hover{
+	width:255px;
+}
+.card1span2{
+	font-size:15px;
+}
+.card1heading1{
+	font-size:30px;
+	width:350px;
 }
 .card1button1{
-	width:80px;
-	height:30px;
+	width:100px;
+	height:38px;
 }
 .card1button2{
-	width:20px;
-	height:40px;
-	border-radius:2px;
-	margin-left:10px;
-	border:2px solid #db9200;
-	color:#db9200;
-	cursor:pointer;
+	width:100px;
+	height:38px;
+}
+#child2{
+	padding-top:25px;
+	margin-left:90px;
 }
 
 
+}
+@media screen and (max-width:700px) {
+.card1img1{
+	margin-left:250px;
+}
+.card1heading1{
+	width:400px;
+}
+
+
+}
+@media screen and (max-width:600px) {
+.card1img1{
+	margin-left:300px;
+}
+
+
+}
+@media screen and (max-width:550px) {
+.card1img1{
+	margin-left:400px;
+}
+#child2{
+	margin-left:200px;
+}
+
+
+}
+@media screen and (max-width:500px) {
+.card1img1{
+	margin-left:440px;
+}
+#child2{
+	margin-left:250px;
+}
 
 
 }
