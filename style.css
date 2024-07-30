@@ -37,6 +37,7 @@ nav a img{
 	display:flex;
 	justify-content:center;
 	margin-top:150px;
+		background-color:blue;
 }
 .card1child{
 	width:30%;
@@ -95,6 +96,7 @@ nav a img{
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
+		background-color:yellow;
 }
 .card2heading{
 	position:absolute;
@@ -128,6 +130,7 @@ nav a img{
 	justify-content:space-around;
 	align-items:center;
 	margin-bottom:150px;
+		background-color:red;
 }
 .card3child{
 	width:350px;
@@ -153,6 +156,7 @@ nav a img{
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
+		background-color:brown;
 }
 .aboutmechild{
 	width:400px;
@@ -181,6 +185,7 @@ nav a img{
 	justify-content:center;
 	align-items:center;
 	margin-top:100px;
+		background-color:green;
 }
 .contactmeheading{
 	font-size:50px;
@@ -261,6 +266,7 @@ nav a img{
 .myvideomain{
 	width:100%;
 	height:600px;
+		background-color:yellow;
 }
 .mylecturesheading{
 	font-size:50px;
@@ -290,6 +296,15 @@ nav a img{
 
 
 
+
+@media screen and (max-width:3315px){
+.card2heading{
+	padding-left:45%;
+}
+
+	
+	
+}
 @media screen and (max-width: 1200px) {
 .navcontent{
     margin-left: 55%;
@@ -297,8 +312,33 @@ nav a img{
 .card1child{
 	width:400px;
 	height:300px;
-	
 }
+.card2heading{
+	padding-left:37%;
+}
+
+}
+@media screen and (max-width:1100px){
+.card2heading{
+	padding-left:37%;
+}
+.card2child{
+	width:300px;
+	height:430px;
+	border-radius:19px;
+}
+.card2img{
+	width:250px;
+}
+.card3child{
+	width:300px;
+	height:430px;
+	border-radius:19px;
+}
+.card3img{
+	width:250px;
+}
+
 
 }
 @media screen and (max-width: 1060px) {
@@ -313,13 +353,31 @@ nav a img{
 .navcontent{
     margin-left: 45%;
 }
-
+.card2heading{
+	padding-left:35%;
+}
+.card2child{
+	width:280px;
+	height:440px;
+	border-radius:18px;
+}
+.card2img{
+	width:240px;
+}
+.card3child{
+	width:280px;
+	height:440px;
+	border-radius:18px;
+}
+.card3img{
+	width:240px;
+}
 
 
 }
 @media screen and (max-width: 900px) {
 nav{
-    width: 900px;
+    width: 100%;
 }
 .navcontent{
     margin-left: 40%;
@@ -327,8 +385,28 @@ nav{
 .card1img1{
 	margin-left: 50px;
 }
-
-
+.card2heading{
+	padding-left:33%;
+}
+.card2child{
+	width:260px;
+	height:450px;
+	border-radius:17px;
+}
+.card2img{
+	width:230px;
+}
+.card3child{
+	width:260px;
+	height:450px;
+	border-radius:17px;
+}
+.card3img{
+	width:230px;
+}
+iframe{
+	width:300px;
+}
 
 }
 @media screen and (max-width:800px) {
@@ -350,7 +428,6 @@ nav{
 }
 .card1child{
 	width:500px;
-	background-color:blue;
 }
 .card1img1{
 	width:250px;
