@@ -8,6 +8,10 @@ body{
     border: 0%;
 	background-color:#f0d8a8;
 }
+.portfoliomain{
+	max-width:1400px;
+	margin:0px auto;
+}
 nav{
     width: 100%;
     height: 70px;
@@ -100,7 +104,7 @@ nav a img{
 }
 .card2heading{
 	position:absolute;
-	padding-left:39%;
+	margin-left:550px;
 	margin-top:70px;
 	font-size:40px;
 	color:#db9200;
@@ -279,7 +283,6 @@ nav a img{
 	width:100%;
 	height:150px;
 	background-color:#db9200;
-	position:absolute;
 }
 .footericons{
 	margin-top:45px;
