@@ -96,16 +96,16 @@ nav a img{
 }
 .card2main{
 	width:100%;
-	height:700px;
+	height:500px;
+		background-color:yellow;
+}
+.card2minimain{
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
-		background-color:yellow;
 }
 .card2heading{
-	position:absolute;
-	margin-left:550px;
-	margin-top:70px;
+	margin-top:100px;
 	font-size:40px;
 	color:#db9200;
 }
@@ -129,11 +129,11 @@ nav a img{
 }
 .card3main{
 	width:100%;
-	height:400px;
+	height:500px;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
-	margin-bottom:150px;
+	margin-bottom:130px;
 		background-color:red;
 }
 .card3child{
@@ -268,7 +268,7 @@ nav a img{
 	box-shadow:0px 0px 10px black;
 }
 .mapmain{
-	width:100%;
+	max-width:100%;
 	height:600px;
 		background-color:yellow;
 }
@@ -291,3 +291,52 @@ nav a img{
 
 
 
+@media screen and (max-width:1200px){
+		.navcontent{
+			margin-left: 50%;
+		}
+		.card1child{
+			width:40%;
+		}
+		.card2child{
+			width:300px;
+			height:400px;
+		}
+		.card2img{
+			width:270px;
+			height:170px;
+			margin-top:15px;
+		}
+		.card3child{
+			width:300px;
+			height:420px;
+		}
+		.card3img{
+			width:270px;
+			height:170px;
+			margin-top:15px;
+		}
+		
+		
+		.contactmemain2{
+			width:450px;
+			height:525px;
+		}
+		.contactmemain3{
+			width:450px;
+			height:525px;
+		}
+		.contactmeinput1{
+			width:350px;
+			height:35px;
+		}
+		.contactmeinput2{
+			width:350px;
+			height:160px;
+		}
+		.contactmeinput3{
+			width:280px;
+			height:55px;
+			margin-left:85px;
+		}
+}
