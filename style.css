@@ -405,3 +405,65 @@ nav a img{
 			height:50px;
 			margin-left:65px;
 		}
+}
+@media screen and (max-width:768px){
+		.navcontent{
+			margin-left: 25%;
+		}
+		.navimg{
+			width: 40px;
+		}
+		.navheading1{
+			font-size: 25px;
+		}
+		.card1child{
+			width:50%;
+		}
+		.card1img1{
+			width:200px;
+			margin-top:50px;
+			margin-left:30px;
+		}
+		.card1img1:hover{
+			width:205px;
+		}
+		.card1button1{
+			width:90px;
+			height:35px;
+		}
+		.card1button2{
+			width:90px;
+			height:35px;
+		}
+		.card2main{
+			height:600px;
+		}
+		.card2child{
+			width:170px;
+			height:470px;
+		}
+		.card2img{
+			width:150px;
+			height:130px;
+		}
+		.card3main{
+			height:600px;
+		}
+		.card3child{
+			width:170px;
+			height:510px;
+		}
+		.card3img{
+			width:150px;
+			height:130px;
+		}
+		.aboutmechild{
+			width:230px;
+		}
+		.aboutmemypicture{
+			width:230px;
+		}
+		.aboutmeheading{
+			font-size:55px;
+		}
+}
