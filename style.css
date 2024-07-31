@@ -316,8 +316,6 @@ nav a img{
 			height:170px;
 			margin-top:15px;
 		}
-		
-		
 		.contactmemain2{
 			width:450px;
 			height:525px;
@@ -340,3 +338,70 @@ nav a img{
 			margin-left:85px;
 		}
 }
+@media screen and (max-width:992px){
+		.navcontent{
+			margin-left: 30%;
+		}
+		.card1child{
+			width:50%;
+		}
+		.card1img1{
+			width:250px;
+			margin-top:20px;
+			margin-left:40px;
+		}
+		.card1img1:hover{
+			width:255px;
+		}
+		.card2main{
+			height:550px;
+		}
+		.card2child{
+			width:230px;
+			height:430px;
+		}
+		.card2img{
+			width:200px;
+			height:140px;
+		}
+		.card3main{
+			height:550px;
+		}
+		.card3child{
+			width:230px;
+			height:430px;
+		}
+		.card3img{
+			width:200px;
+			height:140px;
+		}
+		.aboutmechild{
+			width:300px;
+		}
+		.aboutmemypicture{
+			width:300px;
+		}
+		.aboutmeheading{
+			font-size:40px;
+		}
+		.contactmemain2{
+			width:350px;
+			height:520px;
+		}
+		.contactmemain3{
+			width:350px;
+			height:520px;
+		}
+		.contactmeinput1{
+			width:250px;
+			height:30px;
+		}
+		.contactmeinput2{
+			width:250px;
+			height:180px;
+		}
+		.contactmeinput3{
+			width:220px;
+			height:50px;
+			margin-left:65px;
+		}
