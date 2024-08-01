@@ -486,9 +486,69 @@ nav a img{
 			width:200px;
 			height:50px;
 			margin-left:35px;
-		}
-}
-		
-		
+		}		
 }
 @media screen and (max-width:576px){
+		.navcontent{
+			margin-left: 18%;
+		}
+		.navimg{
+			width: 30px;
+			margin-left: 10px;
+		}
+		.navheading1{
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		nav > .navcontent > a > img{
+			width:15px;
+		}
+		.card1child{
+			width:70%;
+			height:400px;
+		}
+		.card1img1{
+			width:130px;
+			margin-top:110px;
+			margin-left:20px;
+			box-shadow:0px 0px 10px 3px #db9200;
+		}
+		.card1img1:hover{
+			width:135px;
+		}
+		.card1button1{
+			width:70px;
+			height:30px;
+		}
+		.card1button2{
+			width:70px;
+			height:30px;
+		}
+		.card2main{
+			height:500px;
+		}
+		.card2child{
+			width:100px;
+			height:370px;
+		}
+		.card2img{
+			width:70px;
+			height:70px;
+		}
+		#card2and3heading{
+			font-size:18px;
+		}
+		.card3main{
+			height:500px;
+		}
+		.card3child{
+			width:100px;
+			height:370px;
+		}
+		.card3img{
+			width:70px;
+			height:70px;
+		}
+		#card2and3para{
+			font-size:13px;
+		}
