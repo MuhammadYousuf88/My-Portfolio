@@ -423,6 +423,10 @@ nav a img{
 			width:200px;
 			margin-top:50px;
 			margin-left:30px;
+			border:10px solid #db9200;
+			outline: 6px solid white;
+			outline-offset: -10px;
+			box-shadow:0px 0px 6px 4px #db9200;
 		}
 		.card1img1:hover{
 			width:205px;
@@ -551,4 +555,102 @@ nav a img{
 		}
 		#card2and3para{
 			font-size:13px;
+		}
+		.aboutmechild{
+			width:170px;
+		}
+		.aboutmemypicture{
+			width:170px;
+		}
+		.aboutmeheading{
+			font-size:40px;
+		}
+		.aboutmepara{
+			font-size:10px;
+		}
+		.contactmemain2{
+			width:180px;
+			height:400px;
+		}
+		.contactmemain3{
+			width:180px;
+			height:400px;
+		}
+		.contactmeheading{
+			font-size:30px;
+		}
+		#fortop{
+			margin-top:30px;
+		}
+		.contactmeinput1{
+			width:120px;
+			height:18px;
+			margin-left:25px;
+			margin-top:15px;
+		}
+		.contactmeinput2{
+			width:120px;
+			height:130px;
+			margin-top:15px;
+			margin-left:25px;
+		}
+		.contactmeinput3{
+			width:140px;
+			height:40px;
+			margin-left:20px;
+			font-size:20px;
+		}
+		.contactmeinput3:hover{
+			box-shadow:0px 0px 10px black;
+		}
+		.contactmechild1{
+			width:130px;
+			height:200px;
+			margin-top:20px;
+			border-bottom:5px solid white;
+		}
+		.contactmechild2{
+			margin-top:40px;
+		}
+		.contactmeimage1{
+			width:130px;
+			border-radius:50%;
+			margin-top:20px;
+			box-shadow:0px 0px 10px white;
+		}
+		.contactmeimage2{
+			width:35px;
+			margin-left:10px;
+			box-shadow:0px 0px 7px white;
+		}
+		.contactmeimage1:hover{
+			box-shadow:0px 0px 10px black;
+		}
+		.contactmeimage2:hover{
+			box-shadow:0px 0px 7px black;
+		}
+}
+@media screen and (max-width:400px){
+		.navcontent{
+			margin-left: 19%;
+		}
+		.navimg{
+			width: 25px;
+			margin-left: 10px;
+		}
+		.navheading1{
+			font-size: 16px;
+			margin-left: 10px;
+		}
+		nav > .navcontent > a > img{
+			width:15px;
+		}
+		.card1span1{
+			font-size:13px;
+		}
+		.card1span2{
+			font-size:13px;
+		}
+		.card1heading1{
+			font-size:21px;
 		}
