@@ -40,7 +40,6 @@ nav a img{
 	display:flex;
 	justify-content:center;
 	margin-top:150px;
-		background-color:blue;
 }
 .card1child{
 	width:30%;
@@ -53,9 +52,6 @@ nav a img{
     outline: 10px solid white;
     outline-offset: -20px;
 	box-shadow:0px 0px 10px 5px #db9200;
-}
-.card1img1:hover{
-	width:305px;
 }
 .card1span2{
 	color:#db9200;
@@ -96,7 +92,6 @@ nav a img{
 .card2main{
 	width:100%;
 	height:500px;
-		background-color:yellow;
 }
 .card2minimain{
 	display:flex;
@@ -133,7 +128,6 @@ nav a img{
 	justify-content:space-around;
 	align-items:center;
 	margin-bottom:130px;
-		background-color:red;
 }
 .card3child{
 	width:350px;
@@ -159,7 +153,6 @@ nav a img{
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
-		background-color:brown;
 }
 .aboutmechild{
 	width:400px;
@@ -188,7 +181,6 @@ nav a img{
 	justify-content:center;
 	align-items:center;
 	margin-top:100px;
-		background-color:green;
 }
 .contactmeheading{
 	font-size:50px;
@@ -269,7 +261,6 @@ nav a img{
 .mapmain{
 	max-width:100%;
 	height:600px;
-		background-color:yellow;
 }
 .mapheading{
 	font-size:50px;
@@ -349,9 +340,6 @@ nav a img{
 			margin-top:20px;
 			margin-left:40px;
 		}
-		.card1img1:hover{
-			width:255px;
-		}
 		.card2main{
 			height:550px;
 		}
@@ -426,9 +414,6 @@ nav a img{
 			outline: 6px solid white;
 			outline-offset: -10px;
 			box-shadow:0px 0px 6px 4px #db9200;
-		}
-		.card1img1:hover{
-			width:205px;
 		}
 		.card1button1{
 			width:90px;
@@ -515,9 +500,6 @@ nav a img{
 			margin-top:110px;
 			margin-left:20px;
 			box-shadow:0px 0px 10px 3px #db9200;
-		}
-		.card1img1:hover{
-			width:135px;
 		}
 		.card1button1{
 			width:70px;
