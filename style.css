@@ -654,3 +654,27 @@ nav a img{
 		.card1heading1{
 			font-size:21px;
 		}
+		.card1para{
+			font-size:15px;
+		}
+		.card1img1{
+			margin-top:100px;
+		}
+		#card2and3para{
+			font-size:10px;
+		}
+		.card2child{
+			height:300px;
+		}
+		.card3child{
+			height:310px;
+		}
+		.contactmemain2{
+			width:150px;
+			height:400px;
+		}
+		.contactmemain3{
+			width:170px;
+			height:400px;
+		}
+}
