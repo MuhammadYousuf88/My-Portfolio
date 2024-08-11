@@ -14,7 +14,7 @@ body{
 nav{
     width: 100%;
     height: 70px;
-    background-color:#db9200;
+    background-color:orange;
     display: flex;
     align-items: center;
 }
@@ -32,147 +32,131 @@ nav{
 .navcontent{
     margin-left: 60%;
 }
-nav a img{
+nav > .navcontent > a > img{
 	margin-left:7px;
     filter: invert(100%) sepia(0%) saturate(7486%) hue-rotate(154deg) brightness(106%) contrast(100%);
 }
 .card1main{
-	display:flex;
-	justify-content:center;
-	margin-top:150px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+						background-color:green;
 }
-.card1child{
-	width:30%;
-	height:300px;
+.card1child1{
+    width: 400px;
+    height: 400px;
 }
-.card1img1{
-	width:300px;
-	border-radius:50%;
-	border:15px solid #db9200;
-    outline: 10px solid white;
-    outline-offset: -20px;
-	box-shadow:0px 0px 10px 5px #db9200;
+.card1child2{
+    width: 400px;
+    height: 400px;
+    margin-top: 170px;
+}
+.card1child1 > img {
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0px 0px 20px 10px orange;
 }
 .card1span2{
-	color:#db9200;
+    color: orange;
 }
 .card1heading1{
-	color:#db9200;
+    color: orange;
 }
 .card1button1{
-	width:120px;
-	height:40px;
-	border-radius:20px;
-	background-color:#db9200;
-	color:white;
-	border:none;
-	cursor:pointer;
-}
-.card1button1:hover{
-	box-shadow:0px 0px 5px black;
+    color: white;
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
 }
 .card1button2{
-	width:120px;
-	height:40px;
-	border-radius:20px;
-	margin-left:10px;
-	border:2px solid #db9200;
-	color:#db9200;
-	cursor:pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: orange;
+    outline: 3px solid orange;
+    margin-left: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
 }
 .card1button2:hover{
-	background-color:#db9200;
-	color:white;
-	cursor:pointer;
-	box-shadow:0px 0px 5px black;
+    background-color: orange;
+    color: white;
+    outline: 3px solid white;
+    box-shadow: 0px 0px 10px black;
 }
-#child2{
-	padding-top:40px;
+
+.skillsheading1{
+   font-size: 50px;
+   color: orange;
 }
-.card2main{
-	width:100%;
-	height:500px;
+.skillsheading1:hover{
+    color: black;
 }
-.card2minimain{
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
+.skillsmain{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0% auto;
+							background-color:blue;
+
 }
-.card2heading{
-	margin-top:100px;
-	font-size:40px;
-	color:#db9200;
+.skillschild{
+    width: 350px;
+    height: 430px;
+    background-color: orange;
+    margin-top: 50px;
+    border-radius: 10px;
 }
-.card2heading:hover{
-	color:black;
+.skillschild:hover{
+    box-shadow: 0px 0px 10px black;
 }
-.card2child{
-	width:350px;
-	height:400px;
-	background-color:#db9200;
-	border-radius:20px;
-	color:white;
+.skillschild > img{
+    width: 300px;
+    height: 180px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: 10px solid white;
 }
-.card2child:hover{
-	box-shadow:0px 0px 15px black;
+.skillscontent{
+    color: white;
 }
-.card2img{
-	width:300px;
-	height:180px;
-	margin-top:15px;
-}
-.card3main{
-	width:100%;
-	height:500px;
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	margin-bottom:130px;
-}
-.card3child{
-	width:350px;
-	height:400px;
-	background-color:#db9200;
-	border-radius:20px;
-	color:white;
-}
-.cardpara:hover{
-	color:black;
-}
-.card3child:hover{
-	box-shadow:0px 0px 15px black;
-}
-.card3img{
-	width:300px;
-	height:180px;
-	margin-top:15px;
-}
-.aboutmemain{
-	width:100%;
-	height:400px;
-	display:flex;
-	justify-content:space-evenly;
-	align-items:center;
-}
-.aboutmechild{
-	width:400px;
-	text-align:justify;
-	margin-top:250px;
-}
-.aboutmemypicture{
-	width:400px;
-	border-radius:20px;
-}
-.aboutmemypicture:hover{
-	box-shadow:0px 0px 10px 5px black;
+.skillscontent:hover{
+    color: black;
 }
 .aboutmeheading{
-	color:#db9200;
-	font-size:60px;
+    margin-top: 100px;
+    font-size: 50px;
+    color: orange;
 }
 .aboutmeheading:hover{
-	color:white;
-	background-color:#db9200;
+    color: black;
+}
+.aboutmemain{
+    width: 1200px;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+							background-color:aqua;
+
+}
+.aboutmechild{
+    width: 500px;
+}
+.aboutmechild>img{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
 }
 .contactmemain{
 	width:100%;
@@ -181,6 +165,8 @@ nav a img{
 	justify-content:center;
 	align-items:center;
 	margin-top:100px;
+							background-color:brown;
+
 }
 .contactmeheading{
 	font-size:50px;
@@ -193,14 +179,14 @@ nav a img{
 .contactmemain2{
 	width:500px;
 	height:500px;
-	background-color:#db9200;
+	background-color:orange;
 	border-top-left-radius:50px;
 	border-bottom-left-radius:50px;
 }
 .contactmemain3{
 	width:500px;
 	height:500px;
-	background-color:#db9200;
+	background-color:orange;
 	border-top-right-radius:50px;
 	border-bottom-right-radius:50px;
 }
@@ -221,7 +207,7 @@ nav a img{
 	height:60px;
 	margin-left:100px;
 	margin-top:30px;
-	background-color:#db9200;
+	background-color:orange;
 	border:4px solid white;
 	box-shadow:0px 0px 10px white;
 	border-radius:40px;
@@ -261,10 +247,12 @@ nav a img{
 .mapmain{
 	max-width:100%;
 	height:600px;
+							background-color:green;
+
 }
 .mapheading{
 	font-size:50px;
-	color:#db9200;
+	color:orange;
 }
 .mapheading:hover{
 	color:black;
@@ -272,7 +260,7 @@ nav a img{
 .footermain{
 	width:100%;
 	height:150px;
-	background-color:#db9200;
+	background-color:orange;
 }
 .footericons{
 	margin-top:45px;
@@ -281,31 +269,28 @@ nav a img{
 
 
 
+
+
 @media screen and (max-width:1200px){
 		.navcontent{
 			margin-left: 50%;
 		}
-		.card1child{
-			width:40%;
+		.skillsmain{
+			width: 992px;
 		}
-		.card2child{
-			width:300px;
-			height:400px;
+		.aboutmemain{
+			width: 992px;
 		}
-		.card2img{
-			width:270px;
-			height:170px;
-			margin-top:15px;
+		.aboutmechild{
+			width: 400px;
 		}
-		.card3child{
-			width:300px;
-			height:420px;
+		.aboutmechild>img{
+			width: 350px;
+			border-radius: 20px;
 		}
-		.card3img{
-			width:270px;
-			height:170px;
-			margin-top:15px;
-		}
+
+
+		
 		.contactmemain2{
 			width:450px;
 			height:525px;
@@ -332,45 +317,37 @@ nav a img{
 		.navcontent{
 			margin-left: 30%;
 		}
-		.card1child{
-			width:50%;
+		.card1child1{
+			width: 300px;
+			height: 400px;
 		}
-		.card1img1{
-			width:250px;
-			margin-top:20px;
-			margin-left:40px;
+		.card1child2{
+			width: 300px;
+			height: 400px;
+			margin-top: 170px;
 		}
-		.card2main{
-			height:550px;
+		.card1child1 > img {
+			width: 300px;
+			margin-top: 50px;
+			box-shadow: 0px 0px 20px 12px orange;
 		}
-		.card2child{
-			width:230px;
-			height:430px;
+		.skillsmain{
+			width: 768px;
 		}
-		.card2img{
-			width:200px;
-			height:140px;
-		}
-		.card3main{
-			height:550px;
-		}
-		.card3child{
-			width:230px;
-			height:430px;
-		}
-		.card3img{
-			width:200px;
-			height:140px;
+		.aboutmemain{
+			width: 768px;
 		}
 		.aboutmechild{
-			width:300px;
+			width: 350px;
 		}
-		.aboutmemypicture{
-			width:300px;
+		.aboutmechild>img{
+			width: 300px;
+			border-radius: 20px;
 		}
-		.aboutmeheading{
-			font-size:40px;
-		}
+
+		
+		
+		
 		.contactmemain2{
 			width:350px;
 			height:520px;
@@ -403,57 +380,47 @@ nav a img{
 		.navheading1{
 			font-size: 25px;
 		}
-		.card1child{
-			width:50%;
+		.card1main{
+			height: 700px;
+			flex-direction:column;
 		}
-		.card1img1{
-			width:200px;
-			margin-top:50px;
-			margin-left:30px;
-			border:10px solid #db9200;
-			outline: 6px solid white;
-			outline-offset: -10px;
-			box-shadow:0px 0px 6px 4px #db9200;
+		.card1child1{
+			width: 270px;
+			height: 250px;
 		}
-		.card1button1{
-			width:90px;
-			height:35px;
+		.card1child2{
+			width: 350px;
+			height: 250px;
+			text-align:center;
 		}
-		.card1button2{
-			width:90px;
-			height:35px;
+		.card1child1 > img {
+			width: 250px;
+			margin-top: 100px;
 		}
-		.card2main{
-			height:600px;
+		.skillsheading1{
+			margin-top:70px;
 		}
-		.card2child{
-			width:170px;
-			height:470px;
+		.skillsmain{
+			width: 576px;
 		}
-		.card2img{
-			width:150px;
-			height:130px;
-		}
-		.card3main{
-			height:600px;
-		}
-		.card3child{
-			width:170px;
-			height:510px;
-		}
-		.card3img{
-			width:150px;
-			height:130px;
+		.aboutmemain{
+			width: 500px;
+			flex-direction:column;
 		}
 		.aboutmechild{
-			width:230px;
+			width: 400px;
+			text-align:center;
 		}
-		.aboutmemypicture{
-			width:230px;
+		.aboutmechild>img{
+			width: 250px;
+			border-radius: 50%;
+			margin-left:20px;
 		}
-		.aboutmeheading{
-			font-size:55px;
-		}
+
+		
+		
+		
+		
 		.contactmemain2{
 			width:260px;
 			height:520px;
@@ -491,64 +458,22 @@ nav a img{
 		nav > .navcontent > a > img{
 			width:15px;
 		}
-		.card1child{
-			width:70%;
-			height:400px;
+		.skillsmain{
+			width: 400px;
 		}
-		.card1img1{
-			width:130px;
-			margin-top:110px;
-			margin-left:20px;
-			box-shadow:0px 0px 10px 3px #db9200;
-		}
-		.card1button1{
-			width:70px;
-			height:30px;
-		}
-		.card1button2{
-			width:70px;
-			height:30px;
-		}
-		.card2main{
-			height:500px;
-		}
-		.card2child{
-			width:100px;
-			height:370px;
-		}
-		.card2img{
-			width:70px;
-			height:70px;
-		}
-		#card2and3heading{
-			font-size:18px;
-		}
-		.card3main{
-			height:500px;
-		}
-		.card3child{
-			width:100px;
-			height:370px;
-		}
-		.card3img{
-			width:70px;
-			height:70px;
-		}
-		#card2and3para{
-			font-size:13px;
+		.aboutmemain{
+			width: 380px;
 		}
 		.aboutmechild{
-			width:170px;
+			width: 350px;
+			text-align:center;
 		}
-		.aboutmemypicture{
-			width:170px;
+		.aboutmechild>img{
+			width: 250px;
+			margin-left:0px;
 		}
-		.aboutmeheading{
-			font-size:40px;
-		}
-		.aboutmepara{
-			font-size:10px;
-		}
+
+		
 		.contactmemain2{
 			width:180px;
 			height:400px;
@@ -626,30 +551,21 @@ nav a img{
 		nav > .navcontent > a > img{
 			width:15px;
 		}
-		.card1span1{
-			font-size:13px;
+		.skillsmain{
+			width: 350px;
 		}
-		.card1span2{
-			font-size:13px;
+		.aboutmemain{
+			width: 300px;
 		}
-		.card1heading1{
-			font-size:21px;
+		.aboutmechild{
+			width: 280px;
+			text-align:center;
 		}
-		.card1para{
-			font-size:15px;
+		.aboutmechild>img{
+			width: 230px;
+			margin-left:0px;
 		}
-		.card1img1{
-			margin-top:100px;
-		}
-		#card2and3para{
-			font-size:10px;
-		}
-		.card2child{
-			height:300px;
-		}
-		.card3child{
-			height:310px;
-		}
+		
 		.contactmemain2{
 			width:150px;
 			height:400px;
@@ -659,3 +575,4 @@ nav a img{
 			height:400px;
 		}
 }
+@media screen and (max-width:400px){
